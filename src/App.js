@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
-import { GifList } from "./components/Gif.js";
+import GifList from "./components/Gif.js";
 import SearchForm from "./components/SearchForm.js";
 import './App.css'
 
