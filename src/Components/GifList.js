@@ -1,6 +1,6 @@
 import React, {} from 'react'
 
-export const Gif = (props) => (
+const Gif = (props) => (
     <li className="gif-wrap">
     <a href={props.url} target="_blank" rel='noreferrer'>
       <img src={props.url} alt=""/>
@@ -8,7 +8,8 @@ export const Gif = (props) => (
   </li>
 )
 
-export const GifList = props => { 
+
+const GifList = props => { 
     const results = props.data;
     let gifs;
     if (results && results.length > 1) {
