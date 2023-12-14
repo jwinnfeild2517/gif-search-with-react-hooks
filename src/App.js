@@ -15,7 +15,7 @@ const App = () => {
   const getData = useCallback(async () => {
     try {
       const res = await fetch(
-        `http://api.giphy.com/v1/gifs/search?q=${query}&limit=24&api_key=${GIF_KEY}`
+        `https://api.giphy.com/v1/gifs/search?q=${query}&limit=24&api_key=${GIF_KEY}`
       );
       const resj = await res.json()
 
