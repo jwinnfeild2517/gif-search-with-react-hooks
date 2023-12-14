@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
-import GifList from "./components/GifList.js";
-import SearchForm from "./components/SearchForm.js";
+import GifList from "./Components/GifList.js";
+import SearchForm from "./Components/SearchForm.js";
 import './App.css'
 
 const GIF_KEY = process.env.REACT_APP_API_KEY
